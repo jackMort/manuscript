@@ -3,14 +3,14 @@
    ============================================================ */
 
 /* Fonts — IBM Plex Sans for text and headings (IBM Plex Mono for code).
-   Imported from Google Fonts; the ui-sans-serif fallback covers offline use. */
+   Imported from Google Fonts; system-font fallbacks cover offline use. */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
 .markdown-rendered h1, .markdown-rendered h2, .markdown-rendered h3,
 .markdown-rendered h4, .markdown-rendered h5, .markdown-rendered h6,
 .cm-header-1, .cm-header-2, .cm-header-3,
 .cm-header-4, .cm-header-5, .cm-header-6,
 .inline-title {
-  font-family: 'IBM Plex Sans', ui-sans-serif, sans-serif;
+  font-family: 'IBM Plex Sans', 'Segoe UI', Helvetica, Arial, sans-serif;
 }
 
 /* ============================================================
@@ -73,9 +73,9 @@
 
 /* ---- Shared ---- */
 body {
-  --font-text-theme:      'IBM Plex Sans', ui-sans-serif, sans-serif;
-  --font-interface-theme: 'IBM Plex Mono', ui-monospace, 'Source Code Pro', Menlo, Consolas, monospace;
-  --font-monospace-theme: 'IBM Plex Mono', ui-monospace, 'Source Code Pro', Menlo, Consolas, monospace;
+  --font-text-theme:      'IBM Plex Sans', 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-interface-theme: 'IBM Plex Mono', 'Source Code Pro', Menlo, Consolas, monospace;
+  --font-monospace-theme: 'IBM Plex Mono', 'Source Code Pro', Menlo, Consolas, monospace;
 
   --radius-s: 0px;
   --radius-m: 2px;
